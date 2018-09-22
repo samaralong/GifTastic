@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+
+	<!-- Bootstrap Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- CSS Links -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!-- GOOGLE FONT LINKS -->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="jumbotron">
+	  <h1 id="title">Keepin' it Reel</h1>
+	  <p id="title-description">Gifs - like movies, but shorter.</p>
+	</div>
+	
+	<p class="intro">Click on a conveniently already-made button or input your own!</p>
+	
+	<div class="container">
+
+	<div id="movie-buttons"></div>
+
+	<br />
+
+	<div class="row gif-row">
+	  	<div class="col-md-10">
+	  		<div id="gifs"></div>
+	  	</div>
+		<div class="col-md-2">
+		  	<form id="movie-option">	
+
+	      		<label for="movie-input" class="input-label">MORE OF: </label>
+	      		<input type="text" id="movie-input"><br>
+
+	      		<input id="add-movie" type="submit" value="Submit">
+	    	</form>
+	  	</div>
+	</div>
+	
+	</div>
+	
+	<!-- JQUERY Link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Javascript Link -->
+	<script src="assets/javascript/gif.js"></script>
+</body>
+</html>
